@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: #0077c5;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  body {
+    line-height: 1;
+    background-color: #eceef1;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: end;
+    padding: 10px 40px;
+    align-items: center;
+  }
+  
+  nav > div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    font-size: 12px;
+  }
+  
+  nav > div > span {
+    padding: 0 3px 5px 5px;
+    font-size: 12px;
+    color: #505050;
+  }
+  
+  nav > button {
+    width: 102px;
+    height: 34px;
+    font-size: 12px;
+    background-color: #0077c5;
+    color: #fff;
+    font-family: "Cabin", sans-serif;
+    border: 1px solid #505050;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  nav > button > span {
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: 300;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  section {
+    width: 380px;
+  }
+  
+  .sec-top {
+    height: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .logo {
+    width: 118px;
+    height: 35px;
+    background: url(images/index.png) 0 0;
+  }
+  
+  .icons {
+    display: flex;
+    margin-top: 20px;
+    width: 318px;
+    height: 23px;
+    justify-content: space-evenly;
+  }
+  
+  .icon-1 {
+    width: 68.63px;
+    height: inherit;
+    background: url(images/index.png) -253px 27px;
+  }
+  
+  .icon-2 {
+    width: 138.4px;
+    height: inherit;
+    background: url(images/index.png) -110px 27px;
+  }
+  
+  .icon-3 {
+    width: 111px;
+    height: inherit;
+    background: url(images/index.png) 0 27px;
+  }
+  
+  .sec-body {
+    border: 1px solid #c7c7c7; 
+  }
+  
+  .sec-forms {
+    height: 620;
+    background-color: #ffffff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
