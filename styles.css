@@ -121,3 +121,66 @@
     flex-direction: column;
     align-items: center;
   }
+
+  /* Here starts Roy's code */
+
+  /* Here ends Roy's code */
+
+  /*Sec bottom code goes here 
+
+  Sec ends here*/
+  
+  footer {
+    width: 100%;
+    height: 99px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  
+  footer > a{
+    color: #838383;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .f-links {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+  
+  .f-links > span {
+    margin: 0 5px;
+  }
+  
+  .f-copyright-1 {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    color: #838383;
+    margin: 5px;
+  }
+  
+  .f-copyright-2 {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    color: #838383;
+  }
+  
+  .priv-btn{
+    background-color: gray;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    position: fixed;
+    right : 60px;
+    bottom: 0;
+  }
+  
+  .priv-btn:hover{
+    cursor: pointer;
+  }
+  
