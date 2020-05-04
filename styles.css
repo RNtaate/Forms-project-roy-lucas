@@ -120,15 +120,115 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px 30px;
   }
-
-  /* Here starts Roy's code */
-
-  /* Here ends Roy's code */
-
-  /*Sec bottom code goes here 
-
-  Sec ends here*/
+  
+  h2{
+    padding: 25px 0;
+    font-weight: 300;
+    color: rgb(76, 76, 76);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+  }
+  
+  form{
+    width: 100%;
+  }
+  
+  label{
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+  }
+  
+  input[type=text], input[type=tel], input[type=password]{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    padding: 5px 12px;
+  }
+  
+  input[type=tel]
+  {
+    margin-bottom: 0;
+  }
+  
+  .warning{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    color: rgb(80, 80, 80);
+  }
+  
+  input[type=password]{
+    background-image: url('images/unlockedpad.png');
+    background-repeat: no-repeat;
+    background-size: 21px;
+    background-position: 95% 50%;
+  }
+  .submit{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding: 12px 20px;
+    color: white;
+    background-color: #0077c5;
+    font-size: 15px;
+  } 
+  .submit:hover{
+    cursor: pointer;
+  }   
+  .submit > span{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .head3{
+    margin-bottom: 0;
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+  }
+  
+  .sec-body > a{
+    margin-bottom: 40px;
+    margin-top: 5px;
+    color: #178CE0;
+    text-decoration: none;
+  }
+  
+  .privacy{
+    font-style: italic; 
+    margin:10px; 
+    text-align: center; 
+    color: #808080; 
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sec-bottom {
+    height: 53px;
+    background-color: #eceef1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sec-bottom > span {
+    font-size: 10px;
+    color: #8d9096;
+  }
   
   footer {
     width: 100%;
