@@ -92,12 +92,9 @@ section {
   height: 23px;
   justify-content: space-between;
   padding: 0 6px;
-  
 }
 
-.icon:hover {
-  cursor:pointer;
-}
+.icon :hover {cursor:pointer; }
 
 .icon-1 {
   width: 23px;
@@ -127,7 +124,7 @@ section {
 .icon-3 {
   width: 23px;
   height: 23px;
-  background: url(images/index.png) 0px 27px;
+  background: url(images/index.png) 0 27px;
   margin-left: 5px;
 }
 
