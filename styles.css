@@ -20,8 +20,8 @@ body {
 
 nav {
   display: flex;
-  justify-content: end;
-  padding: 10px 40px;
+  justify-content: flex-end;
+  padding: 10px 30px;
   align-items: center;
 }
 
@@ -76,6 +76,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .logo {
@@ -89,25 +90,51 @@ section {
   margin-top: 20px;
   width: 318px;
   height: 23px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 6px;
+  
+}
+
+.icon:hover {
+  cursor:pointer;
 }
 
 .icon-1 {
-  width: 68.63px;
+  width: 23px;
+  height: 23px;
+  background: url(images/index.png) -254px 27px;
+}
+
+.text-1 {
+  width: 37px;
   height: inherit;
-  background: url(images/index.png) -253px 27px;
+  background: url(images/index.png) -280px 27px;
+  margin-right: 7px;
 }
 
 .icon-2 {
-  width: 138.4px;
+  width: 23px;
+  height: 23px;
+  background: url(images/index.png) -115px 27px;
+}
+
+.text-2 {
+  width: 98px;
   height: inherit;
-  background: url(images/index.png) -110px 27px;
+  background: url(images/index.png) -143px 27px;
 }
 
 .icon-3 {
-  width: 111px;
+  width: 23px;
+  height: 23px;
+  background: url(images/index.png) 0px 27px;
+  margin-left: 5px;
+}
+
+.text-3 {
+  width: 74px;
   height: inherit;
-  background: url(images/index.png) 0 27px;
+  background: url(images/index.png) -28px 27px;
 }
 
 .sec-body {
