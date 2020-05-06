@@ -94,7 +94,7 @@ section {
   padding: 0 6px;
 }
 
-.icon :hover { cursor: pointer; }
+.icon:hover { cursor: pointer; }
 
 .icon-1 {
   width: 23px;
